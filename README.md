@@ -8,7 +8,7 @@ b. Build the image using the following command:
 
     docker build -t notebook_pandas:0.1 .
 * -t = create a tag name for the image
-## 3. I container based on created docker image 
+## 3. Create container based on docker image
 
 Use the following docker run command AFTER image has been created with dockerfile:
 
