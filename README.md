@@ -6,8 +6,10 @@
 a. $ cd to locally cloned repo and find the directory with the dockerfile\
 b. Build the image using the following command:
 
-    docker build -t notebook_pandas:0.1 .
-* -t = create a tag name for the image
+    docker build -t notebook_pandas:0.1 . -f dockerfile
+* `-t` = create a tag name for the image
+* `-f` dockerfile = path to dockerfile
+
 ## 3. Create container based on docker image
 
 Use the following docker run command AFTER image has been created with dockerfile:
