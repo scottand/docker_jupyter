@@ -3,8 +3,8 @@
 ## 1. Clone repo
 
 ## 2. Create docker image 
-a. `cd` to locally cloned repo and find the directory root which has the data you want to mount in container
-b. Open terminal in this directory
+a. `cd` to locally cloned repo and find the directory root which has the data you want to mount in container\
+b. Open terminal in this directory\
 c. Build the container image using the following command:
 
     docker build -t notebook_pandas:0.1 . -f dockerfile
