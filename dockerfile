@@ -20,7 +20,7 @@ RUN conda install jupyter -y && \
 EXPOSE 8888
 
 # Creating mountpoint so container can copy locally stored data
-VOLUME [ "/app/data" ]
+VOLUME [ "/app" ]
 
 # Run jupyter on container startup
 CMD [ "jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root" ]
