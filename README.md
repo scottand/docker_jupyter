@@ -15,7 +15,7 @@ c. Build the container image using the following command:
 
 Use the following docker run command AFTER image has been created with dockerfile:
 
-    docker run -p 9999:8888 -v /home/ubuntuuser/Documents/NotebookDevEnv/data:/app/data --name <GIVETHECONTAINERANAME> <1d6bdefef40b OR note_dev:0.1>
+    docker run -p 9999:8888 -v /path/to/data:/app --name <GIVETHECONTAINERANAME> <1d6bdefef40b OR note_dev:0.1>
 
 #### Breakdown of what is happening in the docker run command above:
 * `docker run`  = starting docker container
